@@ -9,4 +9,3 @@ deployment:
     - /bin/cp -R temp $DEPLOYPATH
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp index.php $DEPLOYPATH
-     - /index.php $DEPLOYPATH

@@ -1,0 +1,10 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/example/public_html/
+    - /css/ $DEPLOYPATH
+    - /images/ $DEPLOYPATH
+    - /js/ $DEPLOYPATH
+    - /src/ $DEPLOYPATH
+    - /temp/ $DEPLOYPATH
+    - /.htaccess $DEPLOYPATH
+    - /index.php $DEPLOYPATH

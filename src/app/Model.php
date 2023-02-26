@@ -2,17 +2,17 @@
 
 abstract class Model{//classe contenant la connexion à la bdd ainsi que des méthodes contenant des requetes basique d'accès à la bdd
     // Informations de base de données
-
+ /*
     private $host="localhost";
     private $dbname="surfwave";
     private $username = "christian";
     private $password="1997";
- /*
+  */  
     private $host="localhost:3306";
     private $dbname="c1617653c_surfwave";
     private $username = "c1617653c_christian";
     private $password="@87Toopac87";
-    */  
+  
 
     // propriété contenant la conenxion
 

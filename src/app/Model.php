@@ -9,8 +9,8 @@ abstract class Model{//classe contenant la connexion à la bdd ainsi que des mé
     private $password="1997";
   */  
     private $host="localhost:3306";
-    private $dbname="c1617653c_surfwave";
-    private $username = "c1617653c_christian";
+    private $dbname="c1865308c_surfwave";
+    private $username = "c1865308c_christian";
     private $password="@87Toopac87";
   
 

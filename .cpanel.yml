@@ -1,10 +1,10 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/example/public_html/surfwave
-    - /css/ $DEPLOYPATH
-    - /images/ $DEPLOYPATH
-    - /js/ $DEPLOYPATH
-    - /src/ $DEPLOYPATH
-    - /temp/ $DEPLOYPATH
-    - /.htaccess $DEPLOYPATH
-    - /index.php $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R src $DEPLOYPATH
+    - /bin/cp -R temp $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
